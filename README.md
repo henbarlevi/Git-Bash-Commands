@@ -15,7 +15,8 @@ git status - what git knows about the changed files
 git commit - save the project folder version and the commit massge, 
 by hashing the commit - the commit hashing number point to the commit info  (author, time stamp etc..) 
 and to the hash tree number (the hash tree number - point to the hashfiles content number and from there we get all the content)
-git commit -am "commit description" - shorter way two use git add -A (add all) + git commit -m "commit secription.
+
+git commit -am "commit description" - shorter way to use git add -A (add all) + git commit -m "commit secription.
 
 -------------------branch--------------------------
 https://www.youtube.com/watch?v=oFYyTZwMyAg
