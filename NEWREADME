@@ -38,3 +38,4 @@ git revert [commitId] - retrive stage to before this commit and add this state a
 
 git revert -n [commitId] - retrive stage to before this commit (without commit)
 
+(DANGEROUS) git reset --hard [commitId] - retrive stage to this commit and delete after commits history 
