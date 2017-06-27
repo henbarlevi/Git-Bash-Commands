@@ -36,3 +36,5 @@ git checkout --[filename]/. - if didnt commit changes - remove file changes/all 
 
 git revert [commitId] - retrive stage to before this commit and add this state as a commit
 
+git revert -n [commitId] - retrive stage to before this commit (without commit)
+
